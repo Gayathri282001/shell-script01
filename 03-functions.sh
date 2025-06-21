@@ -31,7 +31,3 @@ VALIDATE $?  "Installing mysql"
 yum install postfix -y
 
 VALIDATE $?  "Installing postfix"
-
-yum install mongodb-org -y
-
-VALIDATE $?  "Installing mongodb"
