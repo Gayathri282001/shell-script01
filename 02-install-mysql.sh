@@ -5,8 +5,9 @@ USERID=$(id -u)
 if[ $USERID -ne 0 ]
 then
     echo "ERROR: run the command as root user"
+    exit 1
 else
-    else "INFO: you re the root user"
+    echo "INFO: you re the root user"
 fi
 
 yum install mysql -y
