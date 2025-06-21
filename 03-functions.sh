@@ -1,6 +1,10 @@
 #!/bin/bash
 
+# our goal is to install mysql and postfix
+
 USERID=$(id -u)
+
+#this function should validate the previous command nd inform user it is success or not
 
 VALIDATE(){
 
