@@ -2,7 +2,7 @@
 
 USERID=$(id -u)
 
-if[ $USERID -ne 0 ]
+if [ $USERID -ne 0 ]
 then
     echo "ERROR: run the command as root user"
     exit 1
@@ -12,7 +12,7 @@ fi
 
 yum install mysql -y
 
-if[ $? -ne 0 ]
+if [ $? -ne 0 ]
 then
     echo "installation is not success"
     exit 1
