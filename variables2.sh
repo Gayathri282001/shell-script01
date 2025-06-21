@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#command line variables( giving values during execution)
 PERSON1=$1
 PERSON2=$2
 
